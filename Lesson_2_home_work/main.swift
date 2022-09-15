@@ -44,6 +44,7 @@ func squareOfCircle (radius: Int) {
     let square = 3.14 * Double((radius * radius))
     print ("S = p * r * r: \(square)")
 }
+squareOfCircle(radius: 5)
 
 //№2 Создать 4 функции для калькулятора ( + - / *) с двумя операндами и произвести 10 разных вычислений с разными числами
 func addition (_ x: Int, _ y: Int) -> Int {
